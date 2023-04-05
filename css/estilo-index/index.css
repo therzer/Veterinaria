@@ -1,0 +1,245 @@
+.presentacion{
+    position: absolute;
+    color: #ffffff;
+    top: 40%;
+    left: 10%;
+    right: 15%;
+}
+
+.presentacion p{
+    margin-top: 10px;
+}
+
+.presentacion h2{
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.presentacion a{
+    background-color: #f76b1c;
+    width: 100px;
+    height: 40px;
+    margin-top: 20px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    text-decoration: none;
+}
+/*Servicios*/
+.servicios{
+    width: 100%;
+    height: 70vh;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.contenido-servicios{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.contenido-servicios h2{
+    color: #f76b1c;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+
+.contenido-servicios h2::before{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-right: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}
+
+.contenido-servicios h2::after{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-left: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}
+
+
+.card-servicios{
+    width: 100%;
+    display: inline-flex;
+}
+
+.item-servicios{
+    width: 212px;
+    height: 200px;
+}
+
+.item-servicios img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    object-position: bottom;
+    border-radius: 50%;
+}
+
+.item-servicios p{
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.s-1 , .s-4{
+    position: relative;
+    top: 120px;
+    margin-bottom: 12%;
+}
+
+/*Comentarios*/
+.opiniones{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #243949;
+}
+
+.opiniones-contenido{
+    text-align: center;
+    margin-bottom: 50px;
+    color: #ffffff;
+}
+
+.opiniones-contenido p{
+    margin-top: 20px;
+}
+
+.opiniones-contenido h2{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #f76b1c;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.opiniones-contenido h2::before{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-right: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}
+
+.opiniones-contenido h2::after{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-left: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}
+
+
+.card-opiniones{
+    width: 100%;
+    display: flex;
+}
+
+.item-opiniones{
+    position: relative;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    background-color: #0674db;
+    border-radius: 10px;
+}
+
+.item-opiniones p{
+    height: 145px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.item-opiniones h3{
+    margin-top: 10px;
+    color: #f76b1c;
+    font-size: 15px;
+}
+.fecha{
+    margin-top: 10px;
+}
+
+.usuario{
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+.usuario i{
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: #f76b1c;
+    border-radius: 10px;
+}
+
+/*galeria centrado*/
+.galeria{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+}
+
+.galeria h2{
+    margin-bottom: 38px;
+    position: relative;
+    color: #f76b1c;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.galeria h2::before{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-right: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}
+
+.galeria h2::after{
+    content: "";
+    display: inline-flex;
+    background: #f76b1c;
+    width: 20%;
+    margin-left: 10px;
+    height: 5px;
+    position: relative;
+    top: -10px;
+}

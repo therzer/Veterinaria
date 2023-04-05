@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Menù Lateral con Css</title>
+	<!--Iconos de ICONS8-->
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css">
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+	<link rel="stylesheet" href="css/menu.css">
+	<link rel="stylesheet" href="css/estilo-index/index.css">
+	<link rel="stylesheet" href="css/estilo-index/index-top.css">
+	<link rel="stylesheet" href="css/estilo-index/estilo-galeria.css">
+	<link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+
+	<div class="top">
+		<div class="left-top">
+		
+			<header class="header">
+				<div class="container">
+					<div class="btn-menu">
+						<label for="btn-menu">☰</label>
+					</div>
+					<div class="logo">
+						<img src="img/logo.png" alt="">
+					</div>
+			</header>
+			<div class="capa"></div>
+		<!--	--------------->
+			<input type="checkbox" id="btn-menu">
+			<div class="container-menu">
+				<div class="cont-menu">
+					<div class="logo">
+						<img src="img/logo.png" alt="">
+					</div>
+					<nav>
+						<a href="#">Inicio</a>
+						<a href="#">Contacto</a>
+						<a href="#">Consulta</a>
+						<a href="#">Sobre Nosotros</a>
+						
+						<div class="redes-sociales">
+							<i class="lab la-facebook-square face"></i>
+							<i class="lab la-instagram insta"></i>
+							<i class="lab la-twitter twit"></i>
+						</div>
+					</nav>
+					<label for="btn-menu">✖️</label>
+				</div>
+			</div>
+
+			<div class="presentacion">
+				<h2>Patitas Felices</h2>
+				<p>En Patitas Felices somos un equipo de veterinarios y amantes de los animales dedicados a proporcionar atención médica y cuidado a tus mascotas. Nos enorgullece ofrecer un enfoque personalizado y cálido para cada paciente que tratamos. </p>
+
+				<a href="#">Ver Más</a>
+			</div>
+		</div>
+		<div class="right-top">
+			<div class="sector top-1">
+				<div class="mascota perro">
+					<img src="img/perro.png" alt="">
+				</div>
+			</div>
+			<div class="sector top-2">
+				<div class="mascota">
+					<img src="img/gato.png" alt="">
+				</div>
+			</div>
+			<div class="sector top-3">
+				<div class="mascota">
+					<img src="img/gatito.png" alt="">
+				</div>
+			</div>
+			<div class="sector top-4">
+				<div class="mascota">
+					<img src="img/perrito.png" alt="">
+				</div>
+			</div>
+		</div>	
+	</div>
+
+	<!--SERVICIOS-->
+
+	<section class="servicios">
+		<div class="contenido-servicios">
+			<p>Nuestros</p>
+			<h2>Servicios</h2>
+			<div class="card-servicios">
+				<div class="item-servicios s-1">
+					<img src="img/trato-medico.webp" alt="">
+					<p>Exámenes físicos y chequeos de salud.<p>
+				</div>
+				<div class="item-servicios s-2">
+					<img src="img/bacunacion.webp" alt="">
+					<p>Vacunaciones y desparasitaciones.</p>
+				</div>
+				<div class="item-servicios s-3">
+					<img src="img/tratamiento.webp" alt="">
+					<p>Tratamientos para enfermedades y lesiones.</p>
+				</div>
+				<div class="item-servicios s-4">
+					<img src="img/cirujia.webp" alt="">
+					<p>Cirugías de tejidos blandos y esterilizaciones</p>
+				</div>
+			</div>	
+		</div>
+	</section>
+
+	<!--OPINIONES-->
+
+	<section class="opiniones">
+		<div class="opiniones-contenido">
+			<p>Algunos comentarios</p>
+			<h2>Comentarios</h2>
+			<div class="card-opiniones">
+				<div class="item-opiniones">
+					<h4 class="fecha">Fecha: 05/02/2023</h4>
+					<p>La veterinaria tiene un personal muy amable y acogedor que hace que las visitas sean una experiencia agradable.</p>
+					<div class="usuario">
+						<i class="las la-paw"></i><h3>Nombre Usuario</h3>
+					</div>
+					
+				</div>
+				<div class="item-opiniones">
+					<h4 class="fecha">Fecha: 9/03/2023</h4>
+					<p>Los veterinarios son muy profesionales y conocedores, y siempre brindan un excelente cuidado a mis mascotas.</p>
+					<div class="usuario">
+						<i class="las la-paw"></i><h3>Nombre Usuario</h3>
+					</div>
+					
+				</div>
+				<div class="item-opiniones">
+					<h4 class="fecha">Fecha: 15/03/2023</h4>
+					<p>El ambiente en la clínica es muy relajante y tranquilo, lo que ayuda a calmar a mis mascotas nerviosas durante las visitas.</p>
+					<div class="usuario">
+						<i class="las la-paw"></i><h3>Nombre Usuario</h3>
+					</div>
+					
+				</div>
+				<div class="item-opiniones">
+					<h4 class="fecha">Fecha: 16/03/2023</h4>
+					<p>La veterinaria ofrece precios justos y asequibles por sus servicios, lo que es una gran ventaja para los dueños de mascotas con presupuestos limitados.</p>
+					<div class="usuario">
+						<i class="las la-paw"></i><h3>Nombre Usuario</h3>
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!--GALERIA-->
+
+	<section class="galeria">
+		<h2>Galeria</h2>
+		<div class="img-slider">
+			<div class="slide active">
+				<img src="img/galeria-1.jpg" alt="">
+				<div class="info">
+					<!---->
+				</div>
+				</div>
+				<div class="slide">
+				<img src="img/galeria-2.jpg" alt="">
+				<div class="info">
+					<!---->
+				</div>
+				</div>
+				<div class="slide">
+				<img src="img/galeria-3.jpg" alt="">
+				<div class="info">
+					<!---->
+				</div>
+				</div>
+				<div class="slide">
+				<img src="img/galeria-4.jpg" alt="">
+				<div class="info">
+					<!---->
+				</div>
+				</div>
+				<div class="slide">
+				<img src="img/galeria-5.jpg" alt="">
+				<div class="info">
+					<!---->
+				</div>
+				</div>
+				<div class="navigation">
+				<div class="btn active"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+				<div class="btn"></div>
+				</div>
+		</div>
+	</section>
+
+	<!--Footer-->
+    <footer class="pie_pagina">
+		<div class="grupo_1">
+			<div class="box">
+				<h2>Contacto</h2>
+
+				<h3><n>Dirección</n></h3>
+        		<h4>C. la Paz 439, Cochabamba, Bolivia</h4>
+
+        		<h3><n>Teléfono</n></h3>
+        		<h4>+59-178400599</h4>
+
+        		<h3><n>Email</n></h3>
+        		<h4>Correoelectronico@gmai.com</h4>
+			</div>
+			<div class="red_social">
+				<h2>Red Social</h2>
+				<i class="lab la-facebook-square face"><a href="#"></a></i>
+				<i class="lab la-instagram insta"><a href="#"></a></i>
+				<i class="lab la-twitter twit"><a href="#"></a></i>
+			</div>
+		</div>
+		<div class="grupo_2">
+			<small>&copy; 2023<b> Nombre cliente</b>-Todos los Derechos Recervados</small>
+		</div>
+	</footer>
+
+	<script src="js/index.js"></script>
+</body>
+</html>
