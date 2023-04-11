@@ -1,0 +1,168 @@
+.top{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+}
+
+.left-top{
+    position: relative;
+    background-image: linear-gradient(to top, #09203f 0%, #537895 100%);
+    width: 40%;
+    height: 100vh;
+    left: 0;
+}
+
+.right-top{
+    position: relative;
+    width: 60%;
+    height: 100vh;
+    right: 0;
+    background-color: black;
+    display: flex;
+}
+
+.right-top .sector{
+    position: absolute;
+}
+
+
+.consulta{
+    position: absolute;
+    color: #ffffff;
+    top: 40%;
+    left: 10%;
+    right: 15%;
+}
+
+.consulta h2{
+    font-size: 40px;
+    font-weight: 900;
+}
+.left-top{
+    width: 30%;
+}
+
+.right-top{
+    width: 70%;
+}
+
+
+.cover{
+    width: 100%;
+    margin: 0 auto;
+    background: whitesmoke;
+    padding: 5px 5%;
+    display: flex;
+    align-items: center;
+}
+
+.form-content{
+    display: flex;
+}
+
+.field{
+    display: flex;
+    padding: 5px;
+}
+
+.form-cons{
+    width: 90%;
+    height: 650px;
+    margin: auto;
+    position: relative;
+}
+
+.form{
+	padding: 10px;
+	width: 80%;
+	left: 10%;
+	top: 100px;
+	display: none;
+}
+
+.form.active{
+    display: block;
+}
+
+.form-cons h1{
+    width: 80%;
+    margin: 50px auto;
+    color: #419fe1;
+    display: flex;
+    align-items: center;
+}
+
+.form-cons h1 i{
+    font-size: 30px;
+    margin: 0 5px;
+}
+
+.form label{
+    display: block;
+    padding: 20px;
+    font-size: 15px;
+    color: #666;
+    width: 180px;
+}
+
+.form input{
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    margin-left: 20px;
+    border-radius: 4px;
+    outline: none;
+    font-size: 16px;
+    height: 60px;
+}
+
+.field > span{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 10px;
+    display: block;
+    color: #ff0000;
+}
+
+.cover button{
+    margin: 20px;
+    padding: 8px 20px;
+    width: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ffffff;
+    float: left;
+    font-weight: bold;
+    position: relative;
+    left: 10%;
+    background: linear-gradient(45deg, #419fe1, cyan);
+}
+
+.cover button:nth-of-type(1){
+    display: none;
+}
+
+.page-indicator{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 10%;
+}
+
+em{
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 30px;
+    background: #ccc;
+    margin: 0 10px;
+}
+
+em.one-page{
+    background: linear-gradient(45deg, #419fe1, cyan);
+}

@@ -17,7 +17,6 @@
 }
 
 
-
 .presentacion a{
     background-color: #f76b1c;
     width: 200px;
@@ -111,7 +110,7 @@
     margin-bottom: 12%;
 }
 
-/*Comentarios*/
+/*Comentarios
 .opiniones{
     width: 100%;
     position: relative;
@@ -219,7 +218,7 @@
     width: 100%;
     text-align: center;
     padding: 20px;
-    background-image: linear-gradient(to right, #243949 0%, #517fa4 100%);
+    background-color: #243949
 }
 
 .galeria h2{
