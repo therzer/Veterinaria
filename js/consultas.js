@@ -4,6 +4,7 @@ let button = document.getElementsByTagName('button');
 let indicate = document.querySelector('.page-indicator');
 let curPage = 0;
 let emn = indicate.getElementsByTagName('em');
+let val = 0; 
 
 window.onload = createIndicator;
 
@@ -31,6 +32,7 @@ button[1].onclick = ()=>{
     }
 }
 
+
 button[0].onclick = ()=>{
     if (curPage > 0){
         curPage --;
@@ -41,9 +43,7 @@ button[0].onclick = ()=>{
     if(curPage < div.length -1){
         button[1].textContent = 'Siguiente';
     }
-    if(curPage < div.length -2){
-        button[1].textContent = 'Siguiente';
-    }
+    
 
     displayPage(curPage);
     activeIndicator(curPage);
@@ -57,7 +57,6 @@ function displayPage(page){
     div[page].classList.add('active');
 }
 
-
 function validate(){
     const activePage = document.querySelector('.active');
     const field = activePage.getElementsByClassName('field');
@@ -69,7 +68,7 @@ function validate(){
         button[0].style.display = 'block';
 
         if(curPage > div.length -2){
-            button[1].textContent = 'Confirma';
+            $("#confirmar").css("display", "block"); 
         }
 
         if(curPage >= div.length){
@@ -99,7 +98,8 @@ function validatefecha(){
         button[0].style.display = 'block';
 
         if(curPage > div.length -2){
-            button[1].textContent = 'Confirma';
+            button[0].style.display = 'none';
+            $("#confirmar").css("display", "block");
         }
 
         if(curPage >= div.length){
@@ -128,3 +128,7 @@ function activeIndicator(page){
     }
     emn[page].classList.add('one-page');
 }
+
+$("#confirmar").on("click", function(){
+    alert("Mi primer alert");
+});
